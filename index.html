@@ -82,9 +82,21 @@ a{color:inherit}
 @media(max-width:980px){.header-inner{align-items:flex-start;flex-direction:column}.header-actions{width:100%;overflow-x:auto;flex-wrap:nowrap;padding-bottom:2px;scrollbar-width:none}.header-actions::-webkit-scrollbar{display:none}.header-link{white-space:nowrap}}
 
 .variant-prices{font-size:10px;line-height:1.45;color:var(--muted);margin-top:5px;max-width:190px}.price{white-space:nowrap}
+
+.stock-badge{position:absolute;left:10px;top:10px;background:#fff1f1;border:1px solid #e8caca;color:#9b5b5b;border-radius:999px;padding:6px 10px;font-size:11px;font-weight:900;letter-spacing:.02em;z-index:2;box-shadow:0 4px 12px rgba(0,0,0,.06)}
+.sold-out-chip{background:#f7ebeb;border-color:#e7d0d0;color:#9b5b5b}
+.wa-button.disabled{background:#cdbfb4;color:#fff;pointer-events:none;cursor:not-allowed}
+.product-card.sold-out .image-frame img{opacity:.82;filter:saturate(.88)}
+
 </style>
 <style>
 .header-actions{justify-content:flex-end}.header-link.primary,.wa-button,.contact-card a{display:inline-flex;align-items:center;justify-content:center}.header-link.primary svg,.wa-button svg,.contact-card a svg{flex:0 0 auto}
+
+.stock-badge{position:absolute;left:10px;top:10px;background:#fff1f1;border:1px solid #e8caca;color:#9b5b5b;border-radius:999px;padding:6px 10px;font-size:11px;font-weight:900;letter-spacing:.02em;z-index:2;box-shadow:0 4px 12px rgba(0,0,0,.06)}
+.sold-out-chip{background:#f7ebeb;border-color:#e7d0d0;color:#9b5b5b}
+.wa-button.disabled{background:#cdbfb4;color:#fff;pointer-events:none;cursor:not-allowed}
+.product-card.sold-out .image-frame img{opacity:.82;filter:saturate(.88)}
+
 </style></head>
 <body>
 <div class="top-strip">Envíos a toda Colombia · Paga por Nequi o Bre-B · Pequeños looks, grandes momentos.</div>
@@ -92,13 +104,6 @@ a{color:inherit}
 <div class="header-inner">
 <a class="brand" href="#"><img alt="LITTLE BLOOM" src="assets/image_01_36101a4fe234.png"/><span><span class="t1">LITTLE BLOOM</span><span class="t2">Ropa para bebés y niños</span></span></a>
 <nav aria-label="Categorías" class="header-actions">
-
-
-
-
-
-
-
 <a class="header-link primary" href="https://wa.me/573176492071" target="_blank"><svg aria-hidden="true" height="19" style="display:inline-block;vertical-align:-4px;margin-right:7px;fill:currentColor" viewbox="0 0 32 32" width="19"><path d="M19.11 17.57c-.33-.17-1.95-.96-2.25-1.07-.3-.11-.52-.17-.74.17-.22.33-.85 1.07-1.04 1.29-.19.22-.38.25-.71.08-.33-.17-1.39-.51-2.65-1.64-.98-.87-1.64-1.95-1.83-2.28-.19-.33-.02-.51.14-.68.15-.15.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.57-.08-.17-.74-1.78-1.01-2.44-.27-.64-.54-.55-.74-.56h-.63c-.22 0-.57.08-.87.41-.3.33-1.15 1.13-1.15 2.74s1.18 3.17 1.34 3.39c.16.22 2.31 3.53 5.59 4.95.78.34 1.39.54 1.87.69.79.25 1.5.22 2.07.13.63-.09 1.95-.8 2.22-1.56.27-.77.27-1.42.19-1.56-.08-.14-.3-.22-.63-.38zM16.03 3.2c-7.08 0-12.83 5.75-12.83 12.83 0 2.26.59 4.47 1.71 6.41L3.1 29.05l6.78-1.78a12.78 12.78 0 0 0 6.14 1.56h.01c7.08 0 12.83-5.75 12.83-12.83S23.11 3.2 16.03 3.2zm0 23.47h-.01c-1.92 0-3.8-.52-5.44-1.51l-.39-.23-4.02 1.05 1.07-3.92-.25-.4a10.64 10.64 0 1 1 9.04 5.01z"></path></svg>WhatsApp</a>
 </nav>
 </div>
@@ -242,49 +247,43 @@ a{color:inherit}
 </div>
 </div>
 </article>
-<article class="product-card" data-category="Conjuntos" data-search="conjunto de 2 piezas con vestido tipo overol para bebé niña - azul baby girl 2-piece jumper dress set - blue conjuntos 24m" data-sizes="24M">
+<article class="product-card sold-out" data-category="Conjuntos" data-search="conjunto de 2 piezas con vestido tipo overol para bebé niña - azul baby girl 2-piece jumper dress set - blue conjuntos 24m agotado" data-sizes="">
 <button aria-label="Ampliar imagen de Conjunto de 2 piezas con vestido tipo overol para bebé niña - Azul" class="image-button" onclick="openImage(5)" type="button">
 <div class="image-frame">
 <img alt="Conjunto de 2 piezas con vestido tipo overol para bebé niña - Azul" loading="lazy" src="https://www.carters.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw0d2397da/productimages/1U607710_1.jpg?sw=900"/>
 <span class="zoom-label">Ver detalle</span>
-</div>
+<span class="stock-badge">Agotado</span></div>
 </button>
 <div class="product-info">
 <div class="category-kicker">Conjuntos</div>
 <h3>Conjunto de 2 piezas con vestido tipo overol para bebé niña - Azul</h3>
-<div class="sizes-row">
-<span class="meta-label">Tallas disponibles</span>
-<div class="chips"><span class="size-chip">24M</span></div>
-</div>
+<div class="sizes-row"><span class="meta-label">Estado</span><div class="chips"><span class="size-chip sold-out-chip">Agotado</span></div></div>
 <div class="bottom-row">
 <div>
 <div class="price">$50.000</div>
 <div class="currency">COP</div>
 </div>
-<a class="wa-button" href="https://wa.me/573176492071?text=Hola%20LITTLE%20BLOOM%2C%20me%20interesa%20este%20producto%3A%20Conjunto%20de%202%20piezas%20con%20vestido%20tipo%20overol%20para%20beb%C3%A9%20ni%C3%B1a%20-%20Azul%20%7C%20Talla%28s%29%3A%2024M%20%7C%20Precio%3A%20%2450.000%20COP" rel="noopener" target="_blank"><svg aria-hidden="true" height="19" style="display:inline-block;vertical-align:-4px;margin-right:7px;fill:currentColor" viewbox="0 0 32 32" width="19"><path d="M19.11 17.57c-.33-.17-1.95-.96-2.25-1.07-.3-.11-.52-.17-.74.17-.22.33-.85 1.07-1.04 1.29-.19.22-.38.25-.71.08-.33-.17-1.39-.51-2.65-1.64-.98-.87-1.64-1.95-1.83-2.28-.19-.33-.02-.51.14-.68.15-.15.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.57-.08-.17-.74-1.78-1.01-2.44-.27-.64-.54-.55-.74-.56h-.63c-.22 0-.57.08-.87.41-.3.33-1.15 1.13-1.15 2.74s1.18 3.17 1.34 3.39c.16.22 2.31 3.53 5.59 4.95.78.34 1.39.54 1.87.69.79.25 1.5.22 2.07.13.63-.09 1.95-.8 2.22-1.56.27-.77.27-1.42.19-1.56-.08-.14-.3-.22-.63-.38zM16.03 3.2c-7.08 0-12.83 5.75-12.83 12.83 0 2.26.59 4.47 1.71 6.41L3.1 29.05l6.78-1.78a12.78 12.78 0 0 0 6.14 1.56h.01c7.08 0 12.83-5.75 12.83-12.83S23.11 3.2 16.03 3.2zm0 23.47h-.01c-1.92 0-3.8-.52-5.44-1.51l-.39-.23-4.02 1.05 1.07-3.92-.25-.4a10.64 10.64 0 1 1 9.04 5.01z"></path></svg>Pedir</a>
+<span aria-disabled="true" class="wa-button disabled">Agotado</span>
 </div>
 </div>
 </article>
-<article class="product-card" data-category="Conjuntos" data-search="conjunto de 2 piezas con vestido-body y cárdigan para bebé - rosado/marfil baby 2-piece bodysuit dress &amp; cardigan set conjuntos 3m" data-sizes="3M">
+<article class="product-card sold-out" data-category="Conjuntos" data-search="conjunto de 2 piezas con vestido-body y cárdigan para bebé - rosado/marfil baby 2-piece bodysuit dress &amp; cardigan set conjuntos 3m agotado" data-sizes="">
 <button aria-label="Ampliar imagen de Conjunto de 2 piezas con vestido-body y cárdigan para bebé - Rosado/Marfil" class="image-button" onclick="openImage(6)" type="button">
 <div class="image-frame">
 <img alt="Conjunto de 2 piezas con vestido-body y cárdigan para bebé - Rosado/Marfil" loading="lazy" src="https://www.carters.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw434b96c9/productimages/1S939010.jpg?sw=900"/>
 <span class="zoom-label">Ver detalle</span>
-</div>
+<span class="stock-badge">Agotado</span></div>
 </button>
 <div class="product-info">
 <div class="category-kicker">Conjuntos</div>
 <h3>Conjunto de 2 piezas con vestido-body y cárdigan para bebé - Rosado/Marfil</h3>
-<div class="sizes-row">
-<span class="meta-label">Tallas disponibles</span>
-<div class="chips"><span class="size-chip">3M</span></div>
-</div>
+<div class="sizes-row"><span class="meta-label">Estado</span><div class="chips"><span class="size-chip sold-out-chip">Agotado</span></div></div>
 <div class="bottom-row">
 <div>
 <div class="price">$50.000</div>
 <div class="currency">COP</div>
 </div>
-<a class="wa-button" href="https://wa.me/573176492071?text=Hola%20LITTLE%20BLOOM%2C%20me%20interesa%20este%20producto%3A%20Conjunto%20de%202%20piezas%20con%20vestido-body%20y%20c%C3%A1rdigan%20para%20beb%C3%A9%20-%20Rosado%2FMarfil%20%7C%20Talla%28s%29%3A%203M%20%7C%20Precio%3A%20%2450.000%20COP" rel="noopener" target="_blank"><svg aria-hidden="true" height="19" style="display:inline-block;vertical-align:-4px;margin-right:7px;fill:currentColor" viewbox="0 0 32 32" width="19"><path d="M19.11 17.57c-.33-.17-1.95-.96-2.25-1.07-.3-.11-.52-.17-.74.17-.22.33-.85 1.07-1.04 1.29-.19.22-.38.25-.71.08-.33-.17-1.39-.51-2.65-1.64-.98-.87-1.64-1.95-1.83-2.28-.19-.33-.02-.51.14-.68.15-.15.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.57-.08-.17-.74-1.78-1.01-2.44-.27-.64-.54-.55-.74-.56h-.63c-.22 0-.57.08-.87.41-.3.33-1.15 1.13-1.15 2.74s1.18 3.17 1.34 3.39c.16.22 2.31 3.53 5.59 4.95.78.34 1.39.54 1.87.69.79.25 1.5.22 2.07.13.63-.09 1.95-.8 2.22-1.56.27-.77.27-1.42.19-1.56-.08-.14-.3-.22-.63-.38zM16.03 3.2c-7.08 0-12.83 5.75-12.83 12.83 0 2.26.59 4.47 1.71 6.41L3.1 29.05l6.78-1.78a12.78 12.78 0 0 0 6.14 1.56h.01c7.08 0 12.83-5.75 12.83-12.83S23.11 3.2 16.03 3.2zm0 23.47h-.01c-1.92 0-3.8-.52-5.44-1.51l-.39-.23-4.02 1.05 1.07-3.92-.25-.4a10.64 10.64 0 1 1 9.04 5.01z"></path></svg>Pedir</a>
+<span aria-disabled="true" class="wa-button disabled">Agotado</span>
 </div>
 </div>
 </article>
@@ -380,26 +379,23 @@ a{color:inherit}
 </div>
 </div>
 </article>
-<article class="product-card" data-category="Conjuntos" data-search="conjunto de 4 piezas con estampado de granja para bebé - blanco/rosado baby 4-piece farm print outfit set - white/pink conjuntos 12m" data-sizes="12M">
+<article class="product-card sold-out" data-category="Conjuntos" data-search="conjunto de 4 piezas con estampado de granja para bebé - blanco/rosado baby 4-piece farm print outfit set - white/pink conjuntos 12m agotado" data-sizes="">
 <button aria-label="Ampliar imagen de Conjunto de 4 piezas con estampado de granja para bebé - Blanco/Rosado" class="image-button" onclick="openImage(11)" type="button">
 <div class="image-frame">
 <img alt="Conjunto de 4 piezas con estampado de granja para bebé - Blanco/Rosado" loading="lazy" src="https://www.carters.com/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw9c4043dd/productimages/1S938110.jpg?sw=900"/>
 <span class="zoom-label">Ver detalle</span>
-</div>
+<span class="stock-badge">Agotado</span></div>
 </button>
 <div class="product-info">
 <div class="category-kicker">Conjuntos</div>
 <h3>Conjunto de 4 piezas con estampado de granja para bebé - Blanco/Rosado</h3>
-<div class="sizes-row">
-<span class="meta-label">Tallas disponibles</span>
-<div class="chips"><span class="size-chip">12M</span></div>
-</div>
+<div class="sizes-row"><span class="meta-label">Estado</span><div class="chips"><span class="size-chip sold-out-chip">Agotado</span></div></div>
 <div class="bottom-row">
 <div>
 <div class="price">$70.000</div>
 <div class="currency">COP</div>
 </div>
-<a class="wa-button" href="https://wa.me/573176492071?text=Hola%20LITTLE%20BLOOM%2C%20me%20interesa%20este%20producto%3A%20Conjunto%20de%204%20piezas%20con%20estampado%20de%20granja%20para%20beb%C3%A9%20-%20Blanco%2FRosado%20%7C%20Talla%28s%29%3A%2012M%20%7C%20Precio%3A%20%2470.000%20COP" rel="noopener" target="_blank"><svg aria-hidden="true" height="19" style="display:inline-block;vertical-align:-4px;margin-right:7px;fill:currentColor" viewbox="0 0 32 32" width="19"><path d="M19.11 17.57c-.33-.17-1.95-.96-2.25-1.07-.3-.11-.52-.17-.74.17-.22.33-.85 1.07-1.04 1.29-.19.22-.38.25-.71.08-.33-.17-1.39-.51-2.65-1.64-.98-.87-1.64-1.95-1.83-2.28-.19-.33-.02-.51.14-.68.15-.15.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.57-.08-.17-.74-1.78-1.01-2.44-.27-.64-.54-.55-.74-.56h-.63c-.22 0-.57.08-.87.41-.3.33-1.15 1.13-1.15 2.74s1.18 3.17 1.34 3.39c.16.22 2.31 3.53 5.59 4.95.78.34 1.39.54 1.87.69.79.25 1.5.22 2.07.13.63-.09 1.95-.8 2.22-1.56.27-.77.27-1.42.19-1.56-.08-.14-.3-.22-.63-.38zM16.03 3.2c-7.08 0-12.83 5.75-12.83 12.83 0 2.26.59 4.47 1.71 6.41L3.1 29.05l6.78-1.78a12.78 12.78 0 0 0 6.14 1.56h.01c7.08 0 12.83-5.75 12.83-12.83S23.11 3.2 16.03 3.2zm0 23.47h-.01c-1.92 0-3.8-.52-5.44-1.51l-.39-.23-4.02 1.05 1.07-3.92-.25-.4a10.64 10.64 0 1 1 9.04 5.01z"></path></svg>Pedir</a>
+<span aria-disabled="true" class="wa-button disabled">Agotado</span>
 </div>
 </div>
 </article>
@@ -1645,7 +1641,7 @@ a{color:inherit}
 </div>
 </div>
 </article>
-<article class="product-card" data-category="Bodies" data-search="pack x2 bodies bebé “mama’s boy” – azul marino y rayas bodies 18m 9-12m" data-sizes="18M|9-12M">
+<article class="product-card" data-category="Bodies" data-search="pack x2 bodies bebé “mama’s boy” – azul marino y rayas bodies 18m" data-sizes="18M">
 <button aria-label="Ampliar imagen de Pack x2 Bodies Bebé “Mama’s Boy” – Azul Marino y Rayas" class="image-button" onclick="openImage(66)" type="button">
 <div class="image-frame">
 <img alt="Pack x2 Bodies Bebé “Mama’s Boy” – Azul Marino y Rayas" loading="lazy" src="assets/image_04_da830a7446b7.png"/>
@@ -1655,20 +1651,17 @@ a{color:inherit}
 <div class="product-info">
 <div class="category-kicker">Bodies</div>
 <h3>Pack x2 Bodies Bebé “Mama’s Boy” – Azul Marino y Rayas</h3>
-<div class="sizes-row">
-<span class="meta-label">Tallas disponibles</span>
-<div class="chips"><span class="size-chip">18M</span><span class="size-chip">9-12M</span></div>
-</div>
+<div class="sizes-row"><span class="meta-label">Tallas disponibles</span><div class="chips"><span class="size-chip">18M</span></div></div>
 <div class="bottom-row">
 <div>
 <div class="price">$39.000</div>
 <div class="currency">COP</div>
 </div>
-<a class="wa-button" href="https://wa.me/573176492071?text=Hola%20LITTLE%20BLOOM%2C%20me%20interesa%20este%20producto%3A%20Pack%20x2%20Bodies%20Beb%C3%A9%20%E2%80%9CMama%E2%80%99s%20Boy%E2%80%9D%20%E2%80%93%20Azul%20Marino%20y%20Rayas%20%7C%20Talla%28s%29%3A%2018M%2C%209-12M%20%7C%20Precio%3A%20%2439.000%20COP" rel="noopener" target="_blank"><svg aria-hidden="true" height="19" style="display:inline-block;vertical-align:-4px;margin-right:7px;fill:currentColor" viewbox="0 0 32 32" width="19"><path d="M19.11 17.57c-.33-.17-1.95-.96-2.25-1.07-.3-.11-.52-.17-.74.17-.22.33-.85 1.07-1.04 1.29-.19.22-.38.25-.71.08-.33-.17-1.39-.51-2.65-1.64-.98-.87-1.64-1.95-1.83-2.28-.19-.33-.02-.51.14-.68.15-.15.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.57-.08-.17-.74-1.78-1.01-2.44-.27-.64-.54-.55-.74-.56h-.63c-.22 0-.57.08-.87.41-.3.33-1.15 1.13-1.15 2.74s1.18 3.17 1.34 3.39c.16.22 2.31 3.53 5.59 4.95.78.34 1.39.54 1.87.69.79.25 1.5.22 2.07.13.63-.09 1.95-.8 2.22-1.56.27-.77.27-1.42.19-1.56-.08-.14-.3-.22-.63-.38zM16.03 3.2c-7.08 0-12.83 5.75-12.83 12.83 0 2.26.59 4.47 1.71 6.41L3.1 29.05l6.78-1.78a12.78 12.78 0 0 0 6.14 1.56h.01c7.08 0 12.83-5.75 12.83-12.83S23.11 3.2 16.03 3.2zm0 23.47h-.01c-1.92 0-3.8-.52-5.44-1.51l-.39-.23-4.02 1.05 1.07-3.92-.25-.4a10.64 10.64 0 1 1 9.04 5.01z"></path></svg>Pedir</a>
+<a class="wa-button" href="https://wa.me/573176492071?text=Hola%20LITTLE%20BLOOM%2C%20me%20interesa%20este%20producto%3A%20Pack%20x2%20Bodies%20Beb%C3%A9%20%E2%80%9CMama%E2%80%99s%20Boy%E2%80%9D%20%E2%80%93%20Azul%20Marino%20y%20Rayas%20%7C%20Talla%28s%29%3A%2018M%20%7C%20Precio%3A%20%2439.000%20COP" rel="noopener" target="_blank"><svg aria-hidden="true" height="19" style="display:inline-block;vertical-align:-4px;margin-right:7px;fill:currentColor" viewbox="0 0 32 32" width="19"><path d="M19.11 17.57c-.33-.17-1.95-.96-2.25-1.07-.3-.11-.52-.17-.74.17-.22.33-.85 1.07-1.04 1.29-.19.22-.38.25-.71.08-.33-.17-1.39-.51-2.65-1.64-.98-.87-1.64-1.95-1.83-2.28-.19-.33-.02-.51.14-.68.15-.15.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.57-.08-.17-.74-1.78-1.01-2.44-.27-.64-.54-.55-.74-.56h-.63c-.22 0-.57.08-.87.41-.3.33-1.15 1.13-1.15 2.74s1.18 3.17 1.34 3.39c.16.22 2.31 3.53 5.59 4.95.78.34 1.39.54 1.87.69.79.25 1.5.22 2.07.13.63-.09 1.95-.8 2.22-1.56.27-.77.27-1.42.19-1.56-.08-.14-.3-.22-.63-.38zM16.03 3.2c-7.08 0-12.83 5.75-12.83 12.83 0 2.26.59 4.47 1.71 6.41L3.1 29.05l6.78-1.78a12.78 12.78 0 0 0 6.14 1.56h.01c7.08 0 12.83-5.75 12.83-12.83S23.11 3.2 16.03 3.2zm0 23.47h-.01c-1.92 0-3.8-.52-5.44-1.51l-.39-.23-4.02 1.05 1.07-3.92-.25-.4a10.64 10.64 0 1 1 9.04 5.01z"></path></svg>Pedir</a>
 </div>
 </div>
 </article>
-<article class="product-card" data-category="Bodies" data-search="pack x2 bodies polo bebé – osito y tirantes azul celeste bodies 9-12m 18m" data-sizes="9-12M|18M">
+<article class="product-card" data-category="Bodies" data-search="pack x2 bodies polo bebé – osito y tirantes azul celeste bodies 18m" data-sizes="18M">
 <button aria-label="Ampliar imagen de Pack x2 Bodies Polo Bebé – Osito y Tirantes Azul Celeste" class="image-button" onclick="openImage(67)" type="button">
 <div class="image-frame">
 <img alt="Pack x2 Bodies Polo Bebé – Osito y Tirantes Azul Celeste" loading="lazy" src="assets/image_05_d715c7fcc3f6.png"/>
@@ -1678,16 +1671,13 @@ a{color:inherit}
 <div class="product-info">
 <div class="category-kicker">Bodies</div>
 <h3>Pack x2 Bodies Polo Bebé – Osito y Tirantes Azul Celeste</h3>
-<div class="sizes-row">
-<span class="meta-label">Tallas disponibles</span>
-<div class="chips"><span class="size-chip">9-12M</span><span class="size-chip">18M</span></div>
-</div>
+<div class="sizes-row"><span class="meta-label">Tallas disponibles</span><div class="chips"><span class="size-chip">18M</span></div></div>
 <div class="bottom-row">
 <div>
 <div class="price">$39.000</div>
 <div class="currency">COP</div>
 </div>
-<a class="wa-button" href="https://wa.me/573176492071?text=Hola%20LITTLE%20BLOOM%2C%20me%20interesa%20este%20producto%3A%20Pack%20x2%20Bodies%20Polo%20Beb%C3%A9%20%E2%80%93%20Osito%20y%20Tirantes%20Azul%20Celeste%20%7C%20Talla%28s%29%3A%209-12M%2C%2018M%20%7C%20Precio%3A%20%2439.000%20COP" rel="noopener" target="_blank"><svg aria-hidden="true" height="19" style="display:inline-block;vertical-align:-4px;margin-right:7px;fill:currentColor" viewbox="0 0 32 32" width="19"><path d="M19.11 17.57c-.33-.17-1.95-.96-2.25-1.07-.3-.11-.52-.17-.74.17-.22.33-.85 1.07-1.04 1.29-.19.22-.38.25-.71.08-.33-.17-1.39-.51-2.65-1.64-.98-.87-1.64-1.95-1.83-2.28-.19-.33-.02-.51.14-.68.15-.15.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.57-.08-.17-.74-1.78-1.01-2.44-.27-.64-.54-.55-.74-.56h-.63c-.22 0-.57.08-.87.41-.3.33-1.15 1.13-1.15 2.74s1.18 3.17 1.34 3.39c.16.22 2.31 3.53 5.59 4.95.78.34 1.39.54 1.87.69.79.25 1.5.22 2.07.13.63-.09 1.95-.8 2.22-1.56.27-.77.27-1.42.19-1.56-.08-.14-.3-.22-.63-.38zM16.03 3.2c-7.08 0-12.83 5.75-12.83 12.83 0 2.26.59 4.47 1.71 6.41L3.1 29.05l6.78-1.78a12.78 12.78 0 0 0 6.14 1.56h.01c7.08 0 12.83-5.75 12.83-12.83S23.11 3.2 16.03 3.2zm0 23.47h-.01c-1.92 0-3.8-.52-5.44-1.51l-.39-.23-4.02 1.05 1.07-3.92-.25-.4a10.64 10.64 0 1 1 9.04 5.01z"></path></svg>Pedir</a>
+<a class="wa-button" href="https://wa.me/573176492071?text=Hola%20LITTLE%20BLOOM%2C%20me%20interesa%20este%20producto%3A%20Pack%20x2%20Bodies%20Polo%20Beb%C3%A9%20%E2%80%93%20Osito%20y%20Tirantes%20Azul%20Celeste%20%7C%20Talla%28s%29%3A%2018M%20%7C%20Precio%3A%20%2439.000%20COP" rel="noopener" target="_blank"><svg aria-hidden="true" height="19" style="display:inline-block;vertical-align:-4px;margin-right:7px;fill:currentColor" viewbox="0 0 32 32" width="19"><path d="M19.11 17.57c-.33-.17-1.95-.96-2.25-1.07-.3-.11-.52-.17-.74.17-.22.33-.85 1.07-1.04 1.29-.19.22-.38.25-.71.08-.33-.17-1.39-.51-2.65-1.64-.98-.87-1.64-1.95-1.83-2.28-.19-.33-.02-.51.14-.68.15-.15.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.57-.08-.17-.74-1.78-1.01-2.44-.27-.64-.54-.55-.74-.56h-.63c-.22 0-.57.08-.87.41-.3.33-1.15 1.13-1.15 2.74s1.18 3.17 1.34 3.39c.16.22 2.31 3.53 5.59 4.95.78.34 1.39.54 1.87.69.79.25 1.5.22 2.07.13.63-.09 1.95-.8 2.22-1.56.27-.77.27-1.42.19-1.56-.08-.14-.3-.22-.63-.38zM16.03 3.2c-7.08 0-12.83 5.75-12.83 12.83 0 2.26.59 4.47 1.71 6.41L3.1 29.05l6.78-1.78a12.78 12.78 0 0 0 6.14 1.56h.01c7.08 0 12.83-5.75 12.83-12.83S23.11 3.2 16.03 3.2zm0 23.47h-.01c-1.92 0-3.8-.52-5.44-1.51l-.39-.23-4.02 1.05 1.07-3.92-.25-.4a10.64 10.64 0 1 1 9.04 5.01z"></path></svg>Pedir</a>
 </div>
 </div>
 </article>
@@ -1737,29 +1727,7 @@ a{color:inherit}
 </div>
 </div>
 </article>
-<article class="product-card" data-category="Prendas" data-search="pack x3 pantalones bebé – azul marino, rayas y gris jaspeado prendas 9-12m" data-sizes="9-12M">
-<button aria-label="Ampliar imagen de Pack x3 Pantalones Bebé – Azul Marino, Rayas y Gris Jaspeado" class="image-button" onclick="openImage(70)" type="button">
-<div class="image-frame">
-<img alt="Pack x3 Pantalones Bebé – Azul Marino, Rayas y Gris Jaspeado" loading="lazy" src="assets/image_08_c1e7a801e8a9.png"/>
-<span class="zoom-label">Ver detalle</span>
 </div>
-</button>
-<div class="product-info">
-<div class="category-kicker">Prendas</div>
-<h3>Pack x3 Pantalones Bebé – Azul Marino, Rayas y Gris Jaspeado</h3>
-<div class="sizes-row">
-<span class="meta-label">Tallas disponibles</span>
-<div class="chips"><span class="size-chip">9-12M</span></div>
-</div>
-<div class="bottom-row">
-<div>
-<div class="price">$63.000</div>
-<div class="currency">COP</div>
-</div>
-<a class="wa-button" href="https://wa.me/573176492071?text=Hola%20LITTLE%20BLOOM%2C%20me%20interesa%20este%20producto%3A%20Pack%20x3%20Pantalones%20Beb%C3%A9%20%E2%80%93%20Azul%20Marino%2C%20Rayas%20y%20Gris%20Jaspeado%20%7C%20Talla%28s%29%3A%209-12M%20%7C%20Precio%3A%20%2463.000%20COP" rel="noopener" target="_blank"><svg aria-hidden="true" height="19" style="display:inline-block;vertical-align:-4px;margin-right:7px;fill:currentColor" viewbox="0 0 32 32" width="19"><path d="M19.11 17.57c-.33-.17-1.95-.96-2.25-1.07-.3-.11-.52-.17-.74.17-.22.33-.85 1.07-1.04 1.29-.19.22-.38.25-.71.08-.33-.17-1.39-.51-2.65-1.64-.98-.87-1.64-1.95-1.83-2.28-.19-.33-.02-.51.14-.68.15-.15.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.57-.08-.17-.74-1.78-1.01-2.44-.27-.64-.54-.55-.74-.56h-.63c-.22 0-.57.08-.87.41-.3.33-1.15 1.13-1.15 2.74s1.18 3.17 1.34 3.39c.16.22 2.31 3.53 5.59 4.95.78.34 1.39.54 1.87.69.79.25 1.5.22 2.07.13.63-.09 1.95-.8 2.22-1.56.27-.77.27-1.42.19-1.56-.08-.14-.3-.22-.63-.38zM16.03 3.2c-7.08 0-12.83 5.75-12.83 12.83 0 2.26.59 4.47 1.71 6.41L3.1 29.05l6.78-1.78a12.78 12.78 0 0 0 6.14 1.56h.01c7.08 0 12.83-5.75 12.83-12.83S23.11 3.2 16.03 3.2zm0 23.47h-.01c-1.92 0-3.8-.52-5.44-1.51l-.39-.23-4.02 1.05 1.07-3.92-.25-.4a10.64 10.64 0 1 1 9.04 5.01z"></path></svg>Pedir</a>
-</div>
-</div>
-</article></div>
 <div class="empty" id="emptyState">No encontramos productos con esos filtros. Prueba otra categoría, talla o palabra.</div>
 </main>
 <section class="story">
@@ -1771,8 +1739,6 @@ a{color:inherit}
 </div>
 <div class="contact-card">
 <strong>Pedidos y atención por WhatsApp</strong>
-
-
 <a href="https://wa.me/573176492071" target="_blank"><svg aria-hidden="true" height="19" style="display:inline-block;vertical-align:-4px;margin-right:7px;fill:currentColor" viewbox="0 0 32 32" width="19"><path d="M19.11 17.57c-.33-.17-1.95-.96-2.25-1.07-.3-.11-.52-.17-.74.17-.22.33-.85 1.07-1.04 1.29-.19.22-.38.25-.71.08-.33-.17-1.39-.51-2.65-1.64-.98-.87-1.64-1.95-1.83-2.28-.19-.33-.02-.51.14-.68.15-.15.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.57-.08-.17-.74-1.78-1.01-2.44-.27-.64-.54-.55-.74-.56h-.63c-.22 0-.57.08-.87.41-.3.33-1.15 1.13-1.15 2.74s1.18 3.17 1.34 3.39c.16.22 2.31 3.53 5.59 4.95.78.34 1.39.54 1.87.69.79.25 1.5.22 2.07.13.63-.09 1.95-.8 2.22-1.56.27-.77.27-1.42.19-1.56-.08-.14-.3-.22-.63-.38zM16.03 3.2c-7.08 0-12.83 5.75-12.83 12.83 0 2.26.59 4.47 1.71 6.41L3.1 29.05l6.78-1.78a12.78 12.78 0 0 0 6.14 1.56h.01c7.08 0 12.83-5.75 12.83-12.83S23.11 3.2 16.03 3.2zm0 23.47h-.01c-1.92 0-3.8-.52-5.44-1.51l-.39-.23-4.02 1.05 1.07-3.92-.25-.4a10.64 10.64 0 1 1 9.04 5.01z"></path></svg>317 649 2071</a></div>
 </div>
 </section>
